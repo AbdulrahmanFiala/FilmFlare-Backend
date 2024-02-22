@@ -44,7 +44,6 @@ FilmFlare is a full-stack web application designed to be your ultimate movie hub
    cd ../../
    mvn spring-boot:run
 
-
 ## Usage
 Once the application is running, you can access it in your web browser at:
 [http://localhost:7000](http://localhost:7000)
