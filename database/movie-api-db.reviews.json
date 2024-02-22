@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "65b5414e7094f91c0b975010"
+  },
+  "body": "I really enjoyed the movie with my family",
+  "_class": "com.fiala.movies.Review"
+},
+{
+  "_id": {
+    "$oid": "65d7622c9e183917ff655d48"
+  },
+  "body": "What a nice movie",
+  "_class": "com.fiala.movies.Review"
+},
+{
+  "_id": {
+    "$oid": "65d7662a9e183917ff655d49"
+  },
+  "body": "What a nice movie",
+  "_class": "com.fiala.movies.Review"
+}]
