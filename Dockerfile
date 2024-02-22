@@ -3,8 +3,8 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/bookbeam-0.0.1-SNAPSHOT.jar bookbeam.jar
+COPY --from=build /target/filmflare-0.0.1-SNAPSHOT.jar filmflare.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "bookbeam.jar"]
+ENTRYPOINT ["java", "-jar", "filmflare.jar"]
 
 
