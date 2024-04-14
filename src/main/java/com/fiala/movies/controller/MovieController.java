@@ -1,5 +1,7 @@
-package com.fiala.movies;
+package com.fiala.movies.controller;
 
+import com.fiala.movies.service.MovieService;
+import com.fiala.movies.entity.Movie;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

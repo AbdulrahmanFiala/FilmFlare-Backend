@@ -1,5 +1,7 @@
-package com.fiala.movies;
+package com.fiala.movies.service;
 
+import com.fiala.movies.dao.MovieRepository;
+import com.fiala.movies.entity.Movie;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
