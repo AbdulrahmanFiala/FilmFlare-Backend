@@ -1,5 +1,8 @@
-package com.fiala.movies;
+package com.fiala.movies.service;
 
+import com.fiala.movies.dao.ReviewRepository;
+import com.fiala.movies.entity.Movie;
+import com.fiala.movies.entity.Review;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

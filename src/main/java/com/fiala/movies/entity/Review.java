@@ -1,4 +1,4 @@
-package com.fiala.movies;
+package com.fiala.movies.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
